@@ -29,7 +29,7 @@ chmod +x *.py
 ### 📂 `src/dynamic_speed.py`
 
 ```python
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import rospy
 from geometry_msgs.msg import Twist
 
@@ -82,7 +82,7 @@ rosrun class_1 dynamic_speed.py
 ### 📂 `src/distance_monitor.py`
 
 ```python
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import rospy
 import math
 from nav_msgs.msg import Odometry
@@ -214,7 +214,7 @@ source devel/setup.bash
 ### 📂 `src/robot_status_publisher.py`
 
 ```python
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import rospy
 import math
 from nav_msgs.msg import Odometry
