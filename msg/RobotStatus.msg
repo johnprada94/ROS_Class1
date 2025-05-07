@@ -1,0 +1,3 @@
+string status_message
+float32 traveled_distance
+float32 current_speed

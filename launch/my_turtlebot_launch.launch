@@ -1,0 +1,5 @@
+<launch>
+  <param name="toggle_period" value="5.0" />
+  <node pkg="ros_classes" type="dynamic_speed.py" name="dynamic_speed" output="screen"/>
+  <node pkg="ros_classes" type="distance_monitor.py" name="distance_monitor" output="screen"/>
+</launch>
